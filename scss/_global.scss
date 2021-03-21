@@ -15,7 +15,7 @@ body {
 	position: relative;
 }
 body {
-	background-color: #e5e5e5;
+	background-color: #E5E5E5;
 	color: #2E3A59;
 	font-family: 'Roboto-Regular';
 }
@@ -72,7 +72,7 @@ img {
 
 .title {
 	display: block;
-	max-width: 288px;
+	min-width: 288px;
 	font-size: 24px;
 	font-weight: 700;
 	padding-top: 16px;
@@ -83,9 +83,11 @@ img {
 		content: "";
 		position: absolute;
 		top: 0;
-		left: 50px;
+		left: 50%;
+		margin-left: -4em;
 		width: 184px;
 		height: 4px;
 		background-color: #00c368;
+		
 	}
 }
